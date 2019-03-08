@@ -20,7 +20,7 @@ class SkFraudDetection(object):
         feature_names : array of feature names (optional)
         """
         print("Predict called - will run idenity function")
-        return X
+        return X+1
 
     def send_feedback(self,features,feature_names,reward,truth):
         """
